@@ -4,6 +4,7 @@
 // the elements to be sorted are numbers
 // integers of constant maximum length, that is,
 // independent of n;
+// Big O(n)
 void sort(int array[], int n, int isAsc) {
     int max = array[0];
     for (int i = 1; i < n; i++) {
